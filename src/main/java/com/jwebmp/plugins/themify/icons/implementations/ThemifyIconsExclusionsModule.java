@@ -1,6 +1,6 @@
 package com.jwebmp.plugins.themify.icons.implementations;
 
-import com.guicedee.guicedinjection.interfaces.IGuiceScanModuleExclusions;
+import com.guicedee.client.services.config.IGuiceScanModuleExclusions;
 
 import jakarta.validation.constraints.NotNull;
 import java.util.HashSet;

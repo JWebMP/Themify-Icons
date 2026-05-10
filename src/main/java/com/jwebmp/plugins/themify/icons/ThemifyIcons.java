@@ -2,8 +2,7 @@ package com.jwebmp.plugins.themify.icons;
 
 import com.jwebmp.core.base.interfaces.ICssClassName;
 
-import static com.guicedee.services.jsonrepresentation.json.StaticStrings.*;
-import static com.jwebmp.core.utilities.StaticStrings.*;
+import static com.guicedee.modules.services.jsonrepresentation.json.StaticStrings.*;
 
 public enum ThemifyIcons
 		implements ICssClassName

@@ -9,9 +9,9 @@ import com.jwebmp.core.base.interfaces.IIcon;
 /**
  * Creates a span that will contain this icon as a class name
  */
-public class ThemifyIcon
-		extends Span<IComponentHierarchyBase<?,?>, NoAttributes, ThemifyIcon>
-	implements IIcon<com.jwebmp.core.base.interfaces.IComponentHierarchyBase<?,?>, ThemifyIcon>
+public class ThemifyIcon<J extends ThemifyIcon<J>>
+		extends Span<IComponentHierarchyBase<?,?>, NoAttributes, J>
+	implements IIcon<com.jwebmp.core.base.interfaces.IComponentHierarchyBase<?,?>, J>
 {
 	private ThemifyIcons icon;
 	/**
