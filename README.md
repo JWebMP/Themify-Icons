@@ -13,9 +13,9 @@
 
 320+ pixel-perfect, hand-crafted icons inspired by Apple iOS 7 for JWebMP applications. 100% free for personal and commercial use. CSS web font rendering with `ti-` class prefix.
 
-Built on [Themify Icons](https://themify.me/themify-icons) · [Angular 21](https://angular.dev/) · [JWebMP Core](https://jwebmp.com/) · JPMS module `com.jwebmp.plugins.themify.icons` · Java 25+
+Built on [Themify Icons](https://themify.me/themify-icons) ï¿½ [Angular 21](https://angular.dev/) ï¿½ [JWebMP Core](https://jwebmp.com/) ï¿½ JPMS module `com.jwebmp.plugins.themify.icons` ï¿½ Java 25+
 
-**Version: 3.4** — Complete icon set with type-safe Java enum API.
+**Version: 3.4** ï¿½ Complete icon set with type-safe Java enum API.
 
 ## Installation
 
@@ -23,7 +23,7 @@ Built on [Themify Icons](https://themify.me/themify-icons) · [Angular 21](https:
 <dependency>
   <groupId>com.jwebmp.plugins</groupId>
   <artifactId>themify-icons</artifactId>
-  <version>2.0.0-SNAPSHOT</version>
+  <version>2.0.3-SNAPSHOT</version>
 </dependency>
 ```
 
@@ -37,14 +37,14 @@ implementation("com.jwebmp.plugins:themify-icons:2.0.0-SNAPSHOT")
 
 ## Features
 
-- **320+ Pixel-Perfect Icons** — Hand-crafted, iOS 7-inspired icon set
-- **Type-Safe Java Enum API** — `ThemifyIcons` enum with compile-time safety and IDE autocomplete
-- **CSS Web Font Rendering** — Lightweight `ti-` prefixed CSS classes
-- **CRTP Fluent API** — `ThemifyIcon<J>` component with type-safe method chaining
-- **IIcon Interface** — Implements JWebMP's standard icon interface for interoperability
-- **Zero Configuration** — Auto-registered via ServiceLoader SPI
-- **Modular Architecture** — JPMS module with explicit dependencies
-- **Comprehensive Categories** — Arrows, UI, media, text, layout, social/brand icons
+- **320+ Pixel-Perfect Icons** ï¿½ Hand-crafted, iOS 7-inspired icon set
+- **Type-Safe Java Enum API** ï¿½ `ThemifyIcons` enum with compile-time safety and IDE autocomplete
+- **CSS Web Font Rendering** ï¿½ Lightweight `ti-` prefixed CSS classes
+- **CRTP Fluent API** ï¿½ `ThemifyIcon<J>` component with type-safe method chaining
+- **IIcon Interface** ï¿½ Implements JWebMP's standard icon interface for interoperability
+- **Zero Configuration** ï¿½ Auto-registered via ServiceLoader SPI
+- **Modular Architecture** ï¿½ JPMS module with explicit dependencies
+- **Comprehensive Categories** ï¿½ Arrows, UI, media, text, layout, social/brand icons
 
 ## Quick Start
 
@@ -177,7 +177,7 @@ com.jwebmp.plugins.themify.icons
 
 ### Exported Packages
 
-- `com.jwebmp.plugins.themify.icons` — Icon component, enum, and configurator
+- `com.jwebmp.plugins.themify.icons` ï¿½ Icon component, enum, and configurator
 
 ---
 
@@ -191,8 +191,8 @@ mvn clean test
 
 ## Documentation
 
-- **[Themify Icons](https://themify.me/themify-icons)** — Official icon reference and cheatsheet
-- **[JWebMP Home](https://jwebmp.com/)** — JWebMP framework documentation
+- **[Themify Icons](https://themify.me/themify-icons)** ï¿½ Official icon reference and cheatsheet
+- **[JWebMP Home](https://jwebmp.com/)** ï¿½ JWebMP framework documentation
 
 | File | Purpose |
 |------|---------|
@@ -262,9 +262,9 @@ You may obtain a copy of the License at
 
 ## Acknowledgments
 
-- **[Themify](https://themify.me/)** — Original Themify Icons icon set
-- **[JWebMP](https://jwebmp.com/)** — Server-driven web framework
-- **[Angular](https://angular.dev/)** — Modern web framework
+- **[Themify](https://themify.me/)** ï¿½ Original Themify Icons icon set
+- **[JWebMP](https://jwebmp.com/)** ï¿½ Server-driven web framework
+- **[Angular](https://angular.dev/)** ï¿½ Modern web framework
 
 ---
 
