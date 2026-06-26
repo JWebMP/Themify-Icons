@@ -12,5 +12,5 @@ module com.jwebmp.plugins.themify.icons {
 	provides com.guicedee.client.services.config.IGuiceScanModuleExclusions with com.jwebmp.plugins.themify.icons.implementations.ThemifyIconsExclusionsModule;
 	provides com.guicedee.client.services.config.IGuiceScanModuleInclusions with ThemifyIconsInclusionModule;
 
-	opens com.jwebmp.plugins.themify.icons to com.fasterxml.jackson.databind, com.jwebmp.core;
+	opens com.jwebmp.plugins.themify.icons to tools.jackson.databind, com.jwebmp.core;
 }
