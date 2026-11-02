@@ -30,8 +30,8 @@ import com.jwebmp.core.services.IPageConfigurator;
 		pluginModuleName = "com.jwebmp.plugins.themify.icons",
 		pluginStatus = PluginStatus.Released
 )
-@TsDependency(value = "themify-icons", version = "^0.0.2")
-@NgStyleSheet("node_modules/themify-icons/css/themify-icons.css")
+@TsDependency(value = "@line-ui/themify-icons", version = "1.0.0-alpha.0")
+@NgStyleSheet("node_modules/@line-ui/themify-icons/css/themify-icons.css")
 public class ThemifyIconsPageConfigurator
 		implements IPageConfigurator<ThemifyIconsPageConfigurator>
 {
